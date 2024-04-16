@@ -1,0 +1,816 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1380px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    min-height: 90px;
+    border-radius: 70px;
+    background-color: #FAFAFA;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    flex-grow: 1;
+    padding-left: 70px;
+}
+
+.tabs {
+    background-color:#FEFEFF;
+    background-color: #FEFEFF;
+    flex-grow: 2;
+    height: 60px;
+    min-height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tabs a,
+.tab-btns a {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.tab-btns {
+    flex-grow: 1;
+    height: 60px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.btn {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+}
+
+.home {
+    margin-top: 80px;
+    width: 100%;
+    height: 617px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.content{
+    padding-top: 100px ;
+}
+.content  p {
+  padding-top: 10px; 
+    padding-left: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.content h1 {
+ padding-top: 20px;
+ padding-left: 70px;
+ font-weight: 600;
+ font-size: 67px;
+
+}
+
+.input{
+    width: 438px;
+    height: 60px;
+    position: relative;
+    margin-left: 76px;
+    margin-top: 30px;
+   
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 76%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 40px;
+    
+
+}
+#home-img1{
+    width:785px ;
+    height: 667px;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 38%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#stepsec{
+    margin-top: 9em;
+    
+}
+#stepsec  p{ 
+    text-align: center;
+}
+#stepscont{
+ display: flex;
+justify-content: space-evenly;
+width: 1307px;
+
+ margin-top: 70px;
+}
+
+.threesteps h1{
+    margin-top: 30px;
+    
+}
+
+.threesteps h5{
+    margin-top:40px;
+}
+
+#Projects{
+    
+    display: flex;
+    
+}
+#Projects img{
+   margin-left: 800px;
+}
+
+
+ #cardsec{
+    display: inline-block;
+  display: flex;
+    width: 1400px;
+    
+} 
+#cards{
+     display: inline-block; 
+     width: 1381px;
+    height: 438px; 
+    flex-direction: row;
+    margin: 30p;
+ 
+ 
+}
+
+.card1{
+    display: inline-block;
+    width: 447px;
+    height: 438px;
+   margin: 7px; 
+   font-size: xx-large;
+  border: 1px; 
+  border-radius: 14px;
+  border: solid;
+   border-color: #BEBEBE;
+
+
+}
+#home-img {
+    height:263px;
+    width: 447px;
+    border-radius: 14px;
+   
+}
+#starimg{
+    width: 153px;
+    height: 19px;
+    margin-bottom: 15px;
+}
+.cont{
+    margin: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* #recentprojects{
+    width: 1245px;
+    height: 577px;
+   
+    margin-left: 97px;
+    
+} 
+#estate{
+    width: 497px;
+    margin-left: 97px;
+    height: 46px;
+}
+#estate h1 {
+    margin-top: 70px;
+}
+.broker{
+   background-color: aqua; */
+   /* display: flex;
+   background-color: #1F1F1F; */
+   /* width: 2000px; */
+/* }
+#brokercont{
+    
+     height: 140px; 
+     width: 474px; 
+    margin-left: 98px;
+  background-color: aqua;
+   /* background-color: #1F1F1F; */
+   /* display: inline-block;
+    
+}
+ #brokercont h1{
+margin-top: 90px;
+
+} 
+
+ #brokercont p {
+    margin-top: 10px;
+}  
+ #img3{ 
+     margin-left: 792px;
+ height: 577px;
+width: 550px; */ 
+/* margin-left: 792px;
+margin-top: 90px;
+margin-bottom: 90em; */
+/* }
+.img{
+    margin-top: 0%;
+} 
+ 
+
+#butn1{
+    width: 153px;
+    height: 60px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+   padding: 15px 35px 15px 35px; 
+    text-decoration: none;
+    color: #FEFEFF;
+    position: absolute;
+    margin-top: 250px;
+    background-color: #1F1F1F;
+    display: flex;
+}
+#butn2{
+    width: 153px;
+    height: 60px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+    text-decoration: none;
+    color: #1F1F1F;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 200px; 
+    background-color: #BEBEBE;
+    display: flex;
+  
+} 
+ #rateing{
+    position: absolute;
+    margin-top: 300px;
+    display: flex;
+    gap: 90px;
+    
+   
+}
+.num h1{
+   
+    font-weight: 600;
+    font-size: 67px;
+    
+    
+} */
+
+ /* .page4Down {
+    font-family: "Poppins", sans-serif !important;
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.leftContent {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+}  */
+/* #page4{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.page4Up {
+    font-family: "Poppins", sans-serif !important;
+    text-align: center;
+}
+
+.page4Down {
+    font-family: "Poppins", sans-serif !important;
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.leftContent {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgDiv {
+    width: 40%;
+    height: 100%;
+}
+
+.imgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-div button {
+    width: 110px;
+    height: 50px;
+    font-family: "Poppins", sans-serif !important;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+.btn-div :nth-child(2) {
+    font-family: "Poppins", sans-serif !important;
+    border: 1px solid gray;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lastsec{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+    height: 457px;
+    width: 1380px;
+   margin-top: 100px;
+   border-radius: 10px;
+   margin-left: 300px;
+   
+}
+#lastcontent{
+margin-top: 70px;
+margin-left: 100px;
+}
+.input2{
+    /* background-color: aqua; */
+    width: 438px;
+    height: 60px;
+    position: relative;
+    
+    margin-top: 30px;
+    margin-top: 50px;
+   
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 76%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 40px;
+    
+
+}
+
+/* ...... */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1330px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em;
+    }
+
+    .tabs {
+        width: 90%;
+    }
+
+    .tab-btns {
+        gap: 1em;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 650px) {
+    .logo {
+        padding-left: 0;
+    }
+
+    .tabs {
+        flex-direction: column;
+        gap: 1.5em;
+        padding: 1em 0;
+    }
+
+    .tab-btns {
+        flex-direction: column;
+        gap: 1.5em;
+
+    }
+
+}
+@media only screen and (max-width: 1400px) {
+    .header  {
+        flex-direction: column;
+       
+        
+    }
+    
+    
+    
+    
+    .home {
+       flex-direction: column;
+       height: 100%;
+     margin-left: 8px;
+     margin-top: 25em;
+        
+       
+}
+.home img {
+    height: 80%;
+    width: 40%;
+    margin-left: 80px;
+}
+.content{
+    margin-left: 70px;
+}
+#stepscont{
+    
+    flex-direction: column;
+    
+}
+#stepsec{
+   margin-left: 10px;
+   margin-top: 8em;
+   
+}
+
+
+#recentprojects{
+    flex-wrap: wrap;
+   
+ 
+} 
+ #brokercont{
+    flex-direction: column;
+    height:40em;
+    width: 100%;
+}
+#butn1{
+    flex-direction: row;
+    margin-left: 2px;
+    margin-top: 70%;
+   
+    
+}
+
+ #butn2{
+   margin-left: 180px;
+    margin-top: 70%;
+   
+    
+}
+#img3{
+   text-align: center;
+height: 60px;
+width: 50px;
+}
+
+ #rateing{
+    margin-top: 50%;
+} 
+#lastsec{
+    margin-top: 40%;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+} 
+
+}
+@media only screen and (max-width: 1216px) {
+    
+    #estatesec{
+        width: 80%;
+        height: 60em;
+    }
+    .btn{
+        width: 10em;
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 1216px) {
+    .tabs{
+        flex-direction: column;
+        gap: 15px;
+        font-size: large;
+    }
+    .tab-btns{
+        flex-direction: column;
+       margin-top: 10em;
+       font-size: large;
+    }
+    .tab-btns .btn{
+        /* width: 170px;
+    height: 65px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px; */
+font-size: large;
+    }
+
+}
+ @media only screen and (max-width: 550px) {
+   .input{
+    width: 70%;
+   }
+ .content h1 {
+    font-size: x-large;
+    font-weight: bolder;
+ }
+ #cards{
+    width: 10em;
+    margin: 0%;
+ }
+
+} 
+@media only screen and (max-width: 570px) {
+    .content{
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width: 450px) {
+   .threesteps  {
+width: 20%;
+ 
+   }
+   .threesteps img{
+    width: 20%;
+   }
+}
+@media only screen and (max-width: 1247px) {
+#brokercont{
+    flex-direction: column;
+
+}
+#butn1{
+    margin-top: 60em;
+}
+
+#butn2{
+    margin-top: 60em;
+}
+#rateing{
+    margin-top: 60em;
+    
+    
+}
+}
+
+@media only screen and (max-width: 1015px) {
+    #cont{
+        
+        text-align: left;
+    }
+
+
+    #lastsec{
+        margin-top: 20em;
+        width: 60em;
+    }
+    #input2{
+        width: 80px;
+    }
+
+}
+@media only screen and (max-width: 990px) {
+    .input2{
+        width: 20em;
+        display: flex;
+    }
+    #lastsec img{
+        height: 27em;
+        
+        width: 30em;
+    }
+   #home-img1{
+width: 70%;
+    }
+}
+@media only screen and (max-width: 770px){
+    #lastsec img{
+        height: 25em;
+        
+        width: 30em;
+    }
+    .input{
+        width: 60%;
+    }
+.input2{
+    width: 20em;
+}
+#lastsec{
+    width: 50em;
+    margin-left: 0%;
+}
+}
+@media only screen and (max-width: 370px){
+    .input{
+        margin-left: 55px;
+        height: 3em;
+    }
+    #home-img{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 1050px){ */
+#brokerage{
+    display: flex;
+ } 
+ #rateing{
+   height: 20em;
+    margin-bottom: 60px;
+ } 
+
+}
+@media only screen and (max-width: 1669px){
+    /* #lastcontent{
+        background-color: aqua;
+    } */
+    #lastsec{
+        text-align: left;
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width: 1400px){
+    #lastsec{
+        width: 100%;
+        margin-top:85px ;
+    }
+    #cont{
+        text-align: center;
+        margin-left: 2px;
+    }
+    .input2{
+        margin-left: 1em;
+
+    }
+#lastimg{
+  height: 30em;
+  width: 40em;
+  margin-left: 1em;
+}
+} 
+@media only screen and (max-width: 1500px){
+#cardsec{
+    flex-direction: column;
+    margin: 15px;
+}
+/* #cards{
+    margin: 30px;
+} */
+#Projects img{
+margin: 0%;
+}
+
+}
+
+
+
+/* #seclast{
+    display: flex;
+    background-color: #1F1F1F;
+}
+
+#estate{
+    flex-direction: row;
+    background-color: antiquewhite;}
+    #Projects{
+
+    }
+} */
